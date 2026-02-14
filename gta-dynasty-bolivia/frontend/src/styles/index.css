@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap');
+*{box-sizing:border-box}body{margin:0;font-family:Orbitron,sans-serif;background:#05070e;color:#e9f6ff}
+.app-shell main{padding:1rem 2rem}
+.hud-nav{display:flex;align-items:center;justify-content:space-between;background:#0d1325;padding:1rem 1.5rem;border-bottom:1px solid #1ef2ff;position:sticky;top:0;z-index:10}
+.hud-nav nav{display:flex;gap:.8rem;flex-wrap:wrap}.hud-nav a{color:#9deeff;text-decoration:none}.hud-nav a.active{color:#fff;text-shadow:0 0 8px #1ef2ff}
+.logo{font-weight:800;color:#1ef2ff}
+.neon-btn{border:1px solid #1ef2ff;background:transparent;color:#1ef2ff;padding:.5rem .9rem;border-radius:8px;cursor:pointer;box-shadow:0 0 10px #1ef2ff44;display:inline-block;text-decoration:none}
+.neon-btn:hover{box-shadow:0 0 16px #1ef2ff}
+.hero{padding:2rem;border:1px solid #8039ff;background:linear-gradient(135deg,#0e1431,#1c1040);border-radius:14px;margin-bottom:1rem}
+.filters-panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.5rem;margin-bottom:1rem}
+input,select{background:#0e1830;color:#d4e6ff;border:1px solid #2b3a6c;padding:.5rem;border-radius:8px}
+.split-view{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.list-grid{display:grid;gap:1rem}
+.property-card{display:flex;background:#0e1830;border:1px solid #1ef2ff55;border-radius:12px;overflow:hidden;transition:all .2s}.property-card:hover{transform:translateY(-3px);box-shadow:0 0 18px #1ef2ff55}
+.property-card img{width:180px;object-fit:cover}.property-card .content{padding:.7rem}
+.map{height:75vh;border-radius:12px;overflow:hidden}
+.auth-card{max-width:450px;display:grid;gap:.7rem;background:#101b33;border:1px solid #1ef2ff55;padding:1rem;border-radius:14px}
+.error{color:#ff6b9a}.detail-page .hero-image{width:100%;max-height:420px;object-fit:cover;border-radius:14px}.thumb-row{display:flex;gap:.5rem;margin:.7rem 0}.thumb-row img{width:120px;height:75px;object-fit:cover;cursor:pointer;border-radius:8px}
+@media(max-width:900px){.split-view{grid-template-columns:1fr}.map{height:50vh}}
