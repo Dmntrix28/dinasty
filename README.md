@@ -1,0 +1,2 @@
+# dinasty
+pagian grupal
